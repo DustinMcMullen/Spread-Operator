@@ -10,7 +10,7 @@ function App() {
   function handleChange(event) {
     const { name, value } = event.target;
 
-    setContact((prevValue) => {
+    setContact(function previousValue(prevValue) {
       return {
         ...prevValue,
         [name]: value
