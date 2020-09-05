@@ -1,2 +1,2 @@
-# Spread-Operator
+# Spread-Operators
 Created with CodeSandbox
